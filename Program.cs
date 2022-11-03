@@ -92,11 +92,13 @@ do
             Console.WriteLine("Wrong choice");
         }
     }
+    Console.WriteLine("");
     Console.WriteLine("How many tea left?" + tea);
     Console.WriteLine("How many coffe left?" + coffee);
     Console.WriteLine("How many sugar left?" + sugar);
     Console.WriteLine("How many milk left?" + milk);
     Console.WriteLine("How many cups left?" + cups);
+    Console.WriteLine("");
     Console.WriteLine("Do you want start from begin? (1 - YES or 2 - NO)");
     menu3 = Convert.ToInt32(Console.ReadLine());
     Console.Clear();
