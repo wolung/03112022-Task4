@@ -99,6 +99,7 @@ do
     Console.WriteLine("How many cups left?" + cups);
     Console.WriteLine("Do you want start from begin? (1 - YES or 2 - NO)");
     menu3 = Convert.ToInt32(Console.ReadLine());
+    Console.Clear();
 } while (menu3 == 1);
 
 
